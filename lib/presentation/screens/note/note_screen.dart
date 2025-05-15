@@ -42,7 +42,7 @@ class _NoteScreenState extends State<NoteScreen> {
           children: [
             UserAccountsDrawerHeader(
               accountName: Text(widget.user.email),
-              accountEmail: Text('ID: ${widget.user.id}'),
+              accountEmail: Text('Token: ${widget.user.token}'),
               currentAccountPicture: CircleAvatar(
                 child: Text(
                   widget.user.email.substring(0, 1).toUpperCase(),
