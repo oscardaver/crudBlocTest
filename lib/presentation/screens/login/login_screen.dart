@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:testcrudbloc/presentation/bloc/auth/auth_event.dart';
+import 'package:testcrudbloc/presentation/bloc/auth/auth_state.dart';
 
 import '../../../core/constants/app_constants.dart';
 import '../../bloc/auth/auth_bloc.dart';

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:testcrudbloc/presentation/bloc/auth/auth_event.dart';
 
 // Core
 import 'core/constants/app_constants.dart';
